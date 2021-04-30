@@ -1,0 +1,248 @@
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+
+
+:root{
+    --dark:#070011;
+    --purple:#0f7fff;
+    --white:#f0f0f0;
+    --dark-grey:#919191;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: var(--dark);
+    font-family: 'Muli', sans-serif;
+}
+
+h1, h2, h3{
+    font-weight: 100;
+    color: var(--white);
+    letter-spacing: 1px;
+}
+
+h1{
+    font-size:3em;
+    margin: 1em 0;
+}
+
+h2{
+    font-size: 2.7em;
+    max-width:750px;
+    margin: 1em 0;
+}
+h3{
+    font-size:1.5em;
+}
+
+span{
+    color: var(--white);
+    font-weight: 900;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+.icon img{
+    background: var(--purple);
+    width:40px;
+    height:40px;
+    padding: 5px;
+    border-radius: 50%;
+    transition: 250ms ease;
+}
+
+.icon img:hover{
+    background: var(--white);
+    transform: translateY(-2px);
+}
+
+
+.title{
+    text-transform: uppercase;
+    font-size: 1em;
+    text-align:center;
+    font-size: 0.8em;
+    flex:1;
+}
+
+.title h3{
+    color: var(--purple);
+    font-weight: 900;
+    
+}
+
+
+.info{
+    letter-spacing: 0.3px;
+    color: var(--dark-grey);
+    line-height: 1.6;
+    flex:3;
+}
+
+
+/*Nav*/
+nav{
+    position: relative;
+    width:100%;
+}
+
+nav ul{
+    position: absolute;
+    top:0;
+    right:1vw;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding: 30px 30px;
+}
+
+nav ul li{
+    z-index:9999;
+    color:white;
+}
+
+/*Hero*/
+.hero{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.hero, footer{
+    padding: 100px 150px;
+}
+
+.hero span{
+    border-bottom:5px solid var(--purple);
+}
+
+.hero h3{
+    margin: 1em 0;
+}
+
+.hero ul{
+    display: flex;
+    gap:10px;
+}
+
+.hero ul li{
+    justify-self: center;
+}
+
+.hero a{
+    color:#fff;
+}
+
+/*About*/
+.about, .skills, .projects, .experience{
+    display: flex;
+    justify-content: center;
+    padding:100px 200px;
+    gap:50px;
+}
+
+.skills .info{
+    display: flex;
+    flex-wrap: wrap;
+    gap:50px;
+}
+
+/*Projects*/
+.info .icon img{
+    width:30px;
+    height:30px;
+}
+
+.project-title{
+    display: flex;
+    justify-content: space-between;
+}
+
+.projects p{
+    margin-bottom:10px;
+}
+
+.projects .info ul li{
+    margin-bottom: 50px;
+}
+
+.projects .tags small{
+    margin-right:5px;
+    color: var(--purple);
+    border:2px solid var(--purple);
+    border-radius: 5px;
+    padding: 5px;
+}
+
+/*Footer*/
+footer{
+    color: var(--white);
+    text-align: center;
+}
+
+
+/*Pointer*/
+.pointer{
+    position:fixed;
+    bottom:20px;
+    right:20px;
+}
+
+
+@media(max-width:1245px){
+    .hero, .about, .skills, .projects, .experience, footer{
+        padding:80px;
+    }
+}
+
+
+@media (max-width:819px){
+    h1{
+        font-size: 2.2;
+    }
+    h2{
+        font-size: 2em;
+    }
+    h3{
+        font-size: 1em;
+    }
+    .hero, footer{
+        padding:30px 40px;
+    }
+    .about, .skills, .projects, .experience{
+        padding: 40px;
+        flex-direction: column;
+        gap:10px;
+    }
+    .info{
+        margin: 10px 0 0 10px;    
+    }
+    .title{
+        text-align: left;
+    }
+  
+}
+
+@media (max-width:311px){
+    .hero{
+        padding-top: ;
+    }
+}
+
+
