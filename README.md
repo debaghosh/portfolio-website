@@ -1,2 +1,2 @@
-# portfolio-website
-Made using html, css
+## Personal Portfolio
+Made using html, css and some js.
