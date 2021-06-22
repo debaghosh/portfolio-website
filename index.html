@@ -4,26 +4,27 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="./style.css">
     <title>👩‍💻 | Personal Website</title>
 </head>
 <body>
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320" id="svg11" height="200" width="100%" preserveAspectRatio="none"><path fill="#0f7fff10" fill-opacity="1" d="M0,192L48,170.7C96,149,192,107,288,117.3C384,128,480,192,576,229.3C672,267,768,277,864,266.7C960,256,1056,224,1152,224C1248,224,1344,256,1392,272L1440,288L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"></path></svg>
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320" id="svg12" height="290" width="100%" preserveAspectRatio="none"><path fill="#0f7fff17" fill-opacity="1" d="M0,192L48,170.7C96,149,192,107,288,117.3C384,128,480,192,576,229.3C672,267,768,277,864,266.7C960,256,1056,224,1152,224C1248,224,1344,256,1392,272L1440,288L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"></path></svg>
-    
+    <!--
     <nav>
         <ul>
             <li>Portfolio</li>
             <li>Blog</li>
         </ul>
     </nav>
-        
+    -->  
     <div class="pointer">
-        <h3><a href="#hero">🔼</a></h3>
+        <h3><a href="#hero" data-aos="fade-up">🔼</a></h3>
     </div>
     <section class="hero" id="hero">
-        <h1>Hey ! 👋</h1>
-        <h2>
+        <h1 data-aos="fade-down-right">Hey !👋</h1>
+        <h2 data-aos="fade-up">
             I'm <span>Debanjana Ghosh</span>, a computer science and technology student & this is my website 💻👧
         </h2>
         <h3>Contact here👇</h3>
@@ -35,26 +36,26 @@
     </section>
 
     <!--About-->
-    <section class="about">
-        <div class="title">
+    <section class="about" >
+        <div class="title" data-aos="fade-right">
             <h3>About</h3>
         </div>
         
-        <div class="info">
+        <div class="info" data-aos="fade-left">
         <p>I'm currently an undergraduate engineering student at <span>Guru Nanak Institute of Technology</span>, Kolkata. I specialize in building functional <span>full-stack </span> web applications, and recently also having been learning native app development with <span>flutter</span>.
         <br>
         <br>
         I enjoy learning and improving my software skills by learning, relearning new technologies. 
-        My other hobbies include binging fantasy/dystopian shows, reading or listening to music. Know more about my interests <a href=""><span>here </span></a></p>
+        My other hobbies include binging fantasy/dystopian shows, reading or listening to music. Know more about my interests <a href="https://www.instagram.com/foundepiphanyinpages/"><span>here </span></a></p>
         </div>
     </section>
 
     <!--Skills-->
     <section class="skills">
-        <div class="title">
+        <div class="title" data-aos="fade-right">
             <h3>Skills</h3>
         </div>
-        <div class="info">
+        <div class="info" data-aos="fade-left">
                 <ul><span>LANGUAGES</span>
                 <li>C/C++</li>
                 <li>Python</li>
@@ -63,27 +64,36 @@
                 <li>Java</li>
             </ul>
             <ul>
-                <span>WEB</span>
+                <span>WEB DEVELOPMENT</span>
                 <li>Html</li>
                 <li>Css</li>
+                <li>Sass</li>
                 <li>Bootstrap</li>
-                <li>React(learning)</li>
+                <li>Bulma CSS</li>
+                <li>ReactJS</li>
+                <li>NextJS</li>
             </ul>
             <ul>
-                <span>FRAMEWORKS</span>
+                <span>BACKEND FRAMEWORKS</span>
                 <li>Django</li>
-                <li>Django Rest</li>
-                <li>Flutter (learning)</li>
-                <li>Elevently</li>
+            </ul>
+            <ul>
+                <span>NATIVE APP DEVELOPMENT</span>
+                <li>Flutter UI</li>
+            </ul>
+            <ul>
+                <span>UI/UX Design</span>
+                <li>Wireframing</li>
+                <li>Prototyping</li>
+                <li>Typography</li>
+                <li>Figma</li>
+                <li>Adobe XD</li>
             </ul>
             <ul>
                 <span>TOOLS</span>
                 <li>Git & Github</li>
-                <li>Jinja</li>
-                <li>Nunchucks</li>
                 <li>Bash</li>
-                <li>Figma</li>
-               
+                <li>Markdown</li>
             </ul>
         </div>
         </div>
@@ -91,11 +101,11 @@
     
     <!--Experience-->
     <section class="projects">
-        <div class="title">
+        <div class="title" data-aos="fade-right">
             <h3>Experience</h3>
         </div>
         
-        <div class="info">
+        <div class="info" data-aos="fade-left">
             <ul>
                     <li>
                         <div class="project-title">
@@ -114,8 +124,8 @@
 
     <!--Featured Projects-->
     <section class="projects">
-        <div class="title"><h3>Feautured Projects</h3></div>
-        <div class="info">
+        <div class="title" data-aos="fade-right"><h3>Feautured Projects</h3></div>
+        <div class="info" data-aos="fade-left">
             <ul>
                 <li>
                     <div class="project-title">
@@ -162,8 +172,8 @@
 
     <!--Side Projects-->
     <section class="projects">
-        <div class="title"><h3>Other Projects</h3></div>
-        <div class="info">
+        <div class="title" data-aos="fade-right"><h3>Other Projects</h3></div>
+        <div class="info" data-aos="fade-left">
             <ul>
                 <li>
                     <div class="project-title">
@@ -202,5 +212,13 @@
         <p>Made with ❤️, 2021</p>
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320" height="285" width="100%" preserveAspectRatio="none" id="svg2"><path fill="#0f7fff17" fill-opacity="1" d="M0,128L24,133.3C48,139,96,149,144,144C192,139,240,117,288,101.3C336,85,384,75,432,90.7C480,107,528,149,576,154.7C624,160,672,128,720,128C768,128,816,160,864,176C912,192,960,192,1008,170.7C1056,149,1104,107,1152,96C1200,85,1248,107,1296,117.3C1344,128,1392,128,1416,128L1440,128L1440,320L1416,320C1392,320,1344,320,1296,320C1248,320,1200,320,1152,320C1104,320,1056,320,1008,320C960,320,912,320,864,320C816,320,768,320,720,320C672,320,624,320,576,320C528,320,480,320,432,320C384,320,336,320,288,320C240,320,192,320,144,320C96,320,48,320,24,320L0,320Z"></path></svg>
     </footer>
+    
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+    AOS.init({
+    duration:2000,
+    offset: 140
+    });
+    </script>     
 </body>
 </html>
