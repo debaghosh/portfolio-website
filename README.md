@@ -1,2 +1,2 @@
 ## Personal Portfolio
-Made using html, css and some js.
+First itteration of my portfolio site made with simple html, css and some js.
