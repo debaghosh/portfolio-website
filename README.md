@@ -1,2 +1,2 @@
-## Personal Portfolio
-First itteration of my portfolio site made with simple html, css and some js.
+## Personal Portfolio (First Iteration) ✨
+First iteration of my portfolio site 😁 made with simple html, css and some js.
